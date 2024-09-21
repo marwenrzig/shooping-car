@@ -20,6 +20,10 @@ src/
 │   ├── ProductList.vue
 │   ├── ShoppingCart.vue
     ├── ProductDetails.vue
+├── tests/
+│   ├── ProductList.spec.ts
+│   ├── ShoppingCart.spec.ts
+    ├── ProductDetails.spec.ts
 ├── App.vue
 └── main.js
 ```
