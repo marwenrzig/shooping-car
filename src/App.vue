@@ -8,7 +8,7 @@ import { useHead } from '@vueuse/head'
 export default ({
   setup() {
     const siteData = reactive({
-      title: `My website`,
+      title: `Shooping Cart Management`,
       description: `My beautiful website`,
     })
     useHead({

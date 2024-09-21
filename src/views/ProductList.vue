@@ -18,7 +18,7 @@
                 </div>
 
             </div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div v-if="filteredProducts.length > 0" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col" v-for="product in filteredProducts" :key="product.id">
                     <div class="card shadow-sm">
 
@@ -40,6 +40,11 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div v-else>
+                <div class="row col empty-product">
+                    <p> No product exist!</p>
                 </div>
             </div>
         </div>
@@ -122,5 +127,12 @@ export default {
 
 .btn-actions {
     margin-top: 20px;
+}
+.empty-product {
+    display: block;
+    position: relative;
+    margin: 20px;
+    font-size: 22px;
+    text-align: left;
 }
 </style>
