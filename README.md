@@ -27,8 +27,11 @@ src/
 **Used components**
 
 - VueX
+
 - Axios
+
 - Vue-router
+
 - Bootstrap
 
 **Install**
