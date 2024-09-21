@@ -1,6 +1,6 @@
 How To Make A Vue 3 Shopping Cart
 <br>
-Developper: **Marwen RZIG**
+Developed By: **Marwen RZIG**
 
 **Project structure**
 ```
@@ -37,6 +37,9 @@ src/
 **Install**
 
 1- Download the repository
+
 2- cd shooping-cart
+
 3- npm install
+
 4- npm run dev
