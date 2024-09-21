@@ -3,7 +3,7 @@ How To Make A Vue 3 Shopping Cart
 Developper: **Marwen RZIG**
 
 **Project structure**
-
+```
 src/
 ├── assets/
 ├── components/
@@ -22,6 +22,7 @@ src/
     ├── ProductDetails.vue
 ├── App.vue
 └── main.js
+```
 
 **Used components**
 
